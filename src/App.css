@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  border-color: #e74c3c ;
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #e74c3c;
+}
+
+button:active {
+  transform: scale(.9);
+}
